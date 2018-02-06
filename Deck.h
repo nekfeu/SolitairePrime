@@ -5,7 +5,7 @@
 #ifndef SOLITAIREPRIME_DECK_H
 #define SOLITAIREPRIME_DECK_H
 
-
+#include <iostream>
 #include "Card.h"
 
 class Deck {

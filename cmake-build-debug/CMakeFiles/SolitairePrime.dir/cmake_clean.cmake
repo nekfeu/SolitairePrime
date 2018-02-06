@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/SolitairePrime.dir/main.cpp.o"
   "CMakeFiles/SolitairePrime.dir/Deck.cpp.o"
   "CMakeFiles/SolitairePrime.dir/Card.cpp.o"
+  "CMakeFiles/SolitairePrime.dir/Rank.cpp.o"
+  "CMakeFiles/SolitairePrime.dir/Suit.cpp.o"
   "SolitairePrime.pdb"
   "SolitairePrime"
 )

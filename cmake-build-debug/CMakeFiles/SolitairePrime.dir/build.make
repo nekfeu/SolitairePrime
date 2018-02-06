@@ -129,11 +129,61 @@ CMakeFiles/SolitairePrime.dir/Card.cpp.o.provides: CMakeFiles/SolitairePrime.dir
 CMakeFiles/SolitairePrime.dir/Card.cpp.o.provides.build: CMakeFiles/SolitairePrime.dir/Card.cpp.o
 
 
+CMakeFiles/SolitairePrime.dir/Rank.cpp.o: CMakeFiles/SolitairePrime.dir/flags.make
+CMakeFiles/SolitairePrime.dir/Rank.cpp.o: ../Rank.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nekfeu/Documents/CSULB/Cpp/SolitairePrime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SolitairePrime.dir/Rank.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SolitairePrime.dir/Rank.cpp.o -c /Users/nekfeu/Documents/CSULB/Cpp/SolitairePrime/Rank.cpp
+
+CMakeFiles/SolitairePrime.dir/Rank.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SolitairePrime.dir/Rank.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nekfeu/Documents/CSULB/Cpp/SolitairePrime/Rank.cpp > CMakeFiles/SolitairePrime.dir/Rank.cpp.i
+
+CMakeFiles/SolitairePrime.dir/Rank.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SolitairePrime.dir/Rank.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nekfeu/Documents/CSULB/Cpp/SolitairePrime/Rank.cpp -o CMakeFiles/SolitairePrime.dir/Rank.cpp.s
+
+CMakeFiles/SolitairePrime.dir/Rank.cpp.o.requires:
+
+.PHONY : CMakeFiles/SolitairePrime.dir/Rank.cpp.o.requires
+
+CMakeFiles/SolitairePrime.dir/Rank.cpp.o.provides: CMakeFiles/SolitairePrime.dir/Rank.cpp.o.requires
+	$(MAKE) -f CMakeFiles/SolitairePrime.dir/build.make CMakeFiles/SolitairePrime.dir/Rank.cpp.o.provides.build
+.PHONY : CMakeFiles/SolitairePrime.dir/Rank.cpp.o.provides
+
+CMakeFiles/SolitairePrime.dir/Rank.cpp.o.provides.build: CMakeFiles/SolitairePrime.dir/Rank.cpp.o
+
+
+CMakeFiles/SolitairePrime.dir/Suit.cpp.o: CMakeFiles/SolitairePrime.dir/flags.make
+CMakeFiles/SolitairePrime.dir/Suit.cpp.o: ../Suit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nekfeu/Documents/CSULB/Cpp/SolitairePrime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SolitairePrime.dir/Suit.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SolitairePrime.dir/Suit.cpp.o -c /Users/nekfeu/Documents/CSULB/Cpp/SolitairePrime/Suit.cpp
+
+CMakeFiles/SolitairePrime.dir/Suit.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SolitairePrime.dir/Suit.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nekfeu/Documents/CSULB/Cpp/SolitairePrime/Suit.cpp > CMakeFiles/SolitairePrime.dir/Suit.cpp.i
+
+CMakeFiles/SolitairePrime.dir/Suit.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SolitairePrime.dir/Suit.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nekfeu/Documents/CSULB/Cpp/SolitairePrime/Suit.cpp -o CMakeFiles/SolitairePrime.dir/Suit.cpp.s
+
+CMakeFiles/SolitairePrime.dir/Suit.cpp.o.requires:
+
+.PHONY : CMakeFiles/SolitairePrime.dir/Suit.cpp.o.requires
+
+CMakeFiles/SolitairePrime.dir/Suit.cpp.o.provides: CMakeFiles/SolitairePrime.dir/Suit.cpp.o.requires
+	$(MAKE) -f CMakeFiles/SolitairePrime.dir/build.make CMakeFiles/SolitairePrime.dir/Suit.cpp.o.provides.build
+.PHONY : CMakeFiles/SolitairePrime.dir/Suit.cpp.o.provides
+
+CMakeFiles/SolitairePrime.dir/Suit.cpp.o.provides.build: CMakeFiles/SolitairePrime.dir/Suit.cpp.o
+
+
 # Object files for target SolitairePrime
 SolitairePrime_OBJECTS = \
 "CMakeFiles/SolitairePrime.dir/main.cpp.o" \
 "CMakeFiles/SolitairePrime.dir/Deck.cpp.o" \
-"CMakeFiles/SolitairePrime.dir/Card.cpp.o"
+"CMakeFiles/SolitairePrime.dir/Card.cpp.o" \
+"CMakeFiles/SolitairePrime.dir/Rank.cpp.o" \
+"CMakeFiles/SolitairePrime.dir/Suit.cpp.o"
 
 # External object files for target SolitairePrime
 SolitairePrime_EXTERNAL_OBJECTS =
@@ -141,9 +191,11 @@ SolitairePrime_EXTERNAL_OBJECTS =
 SolitairePrime: CMakeFiles/SolitairePrime.dir/main.cpp.o
 SolitairePrime: CMakeFiles/SolitairePrime.dir/Deck.cpp.o
 SolitairePrime: CMakeFiles/SolitairePrime.dir/Card.cpp.o
+SolitairePrime: CMakeFiles/SolitairePrime.dir/Rank.cpp.o
+SolitairePrime: CMakeFiles/SolitairePrime.dir/Suit.cpp.o
 SolitairePrime: CMakeFiles/SolitairePrime.dir/build.make
 SolitairePrime: CMakeFiles/SolitairePrime.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/nekfeu/Documents/CSULB/Cpp/SolitairePrime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable SolitairePrime"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/nekfeu/Documents/CSULB/Cpp/SolitairePrime/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable SolitairePrime"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SolitairePrime.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -154,6 +206,8 @@ CMakeFiles/SolitairePrime.dir/build: SolitairePrime
 CMakeFiles/SolitairePrime.dir/requires: CMakeFiles/SolitairePrime.dir/main.cpp.o.requires
 CMakeFiles/SolitairePrime.dir/requires: CMakeFiles/SolitairePrime.dir/Deck.cpp.o.requires
 CMakeFiles/SolitairePrime.dir/requires: CMakeFiles/SolitairePrime.dir/Card.cpp.o.requires
+CMakeFiles/SolitairePrime.dir/requires: CMakeFiles/SolitairePrime.dir/Rank.cpp.o.requires
+CMakeFiles/SolitairePrime.dir/requires: CMakeFiles/SolitairePrime.dir/Suit.cpp.o.requires
 
 .PHONY : CMakeFiles/SolitairePrime.dir/requires
 

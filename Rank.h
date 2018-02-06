@@ -5,6 +5,8 @@
 #ifndef SOLITAIREPRIME_RANK_H
 #define SOLITAIREPRIME_RANK_H
 
+#include <iostream>
+
 enum Rank {
     ACE = 1,
     TWO,
@@ -20,5 +22,7 @@ enum Rank {
     QUEEN,
     KING
 };
+
+std::ostream& operator<< (std::ostream &stream, const Rank &rank);
 
 #endif //SOLITAIREPRIME_RANK_H

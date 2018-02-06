@@ -92,7 +92,13 @@
 		<Unit filename="/Users/nekfeu/Documents/CSULB/Cpp/SolitairePrime/Deck.h">
 			<Option target="SolitairePrime"/>
 		</Unit>
+		<Unit filename="/Users/nekfeu/Documents/CSULB/Cpp/SolitairePrime/Rank.cpp">
+			<Option target="SolitairePrime"/>
+		</Unit>
 		<Unit filename="/Users/nekfeu/Documents/CSULB/Cpp/SolitairePrime/Rank.h">
+			<Option target="SolitairePrime"/>
+		</Unit>
+		<Unit filename="/Users/nekfeu/Documents/CSULB/Cpp/SolitairePrime/Suit.cpp">
 			<Option target="SolitairePrime"/>
 		</Unit>
 		<Unit filename="/Users/nekfeu/Documents/CSULB/Cpp/SolitairePrime/Suit.h">

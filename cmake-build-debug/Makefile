@@ -177,6 +177,60 @@ Deck.cpp.s:
 	$(MAKE) -f CMakeFiles/SolitairePrime.dir/build.make CMakeFiles/SolitairePrime.dir/Deck.cpp.s
 .PHONY : Deck.cpp.s
 
+Rank.o: Rank.cpp.o
+
+.PHONY : Rank.o
+
+# target to build an object file
+Rank.cpp.o:
+	$(MAKE) -f CMakeFiles/SolitairePrime.dir/build.make CMakeFiles/SolitairePrime.dir/Rank.cpp.o
+.PHONY : Rank.cpp.o
+
+Rank.i: Rank.cpp.i
+
+.PHONY : Rank.i
+
+# target to preprocess a source file
+Rank.cpp.i:
+	$(MAKE) -f CMakeFiles/SolitairePrime.dir/build.make CMakeFiles/SolitairePrime.dir/Rank.cpp.i
+.PHONY : Rank.cpp.i
+
+Rank.s: Rank.cpp.s
+
+.PHONY : Rank.s
+
+# target to generate assembly for a file
+Rank.cpp.s:
+	$(MAKE) -f CMakeFiles/SolitairePrime.dir/build.make CMakeFiles/SolitairePrime.dir/Rank.cpp.s
+.PHONY : Rank.cpp.s
+
+Suit.o: Suit.cpp.o
+
+.PHONY : Suit.o
+
+# target to build an object file
+Suit.cpp.o:
+	$(MAKE) -f CMakeFiles/SolitairePrime.dir/build.make CMakeFiles/SolitairePrime.dir/Suit.cpp.o
+.PHONY : Suit.cpp.o
+
+Suit.i: Suit.cpp.i
+
+.PHONY : Suit.i
+
+# target to preprocess a source file
+Suit.cpp.i:
+	$(MAKE) -f CMakeFiles/SolitairePrime.dir/build.make CMakeFiles/SolitairePrime.dir/Suit.cpp.i
+.PHONY : Suit.cpp.i
+
+Suit.s: Suit.cpp.s
+
+.PHONY : Suit.s
+
+# target to generate assembly for a file
+Suit.cpp.s:
+	$(MAKE) -f CMakeFiles/SolitairePrime.dir/build.make CMakeFiles/SolitairePrime.dir/Suit.cpp.s
+.PHONY : Suit.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -219,6 +273,12 @@ help:
 	@echo "... Deck.o"
 	@echo "... Deck.i"
 	@echo "... Deck.s"
+	@echo "... Rank.o"
+	@echo "... Rank.i"
+	@echo "... Rank.s"
+	@echo "... Suit.o"
+	@echo "... Suit.i"
+	@echo "... Suit.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
