@@ -22,7 +22,7 @@ public:
     void show();
 };
 
-std::ostream& operator<< (std::ostream &stream, const Card::Card &card);
+std::ostream& operator<< (std::ostream &stream, const Card::Card *card);
 
 
 #endif //SOLITAIREPRIME_CARD_H

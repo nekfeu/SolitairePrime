@@ -5,7 +5,6 @@
 #include "Card.h"
 
 Card::Card() {
-    // carte vide
 }
 
 Card::Card(Rank rank, Suit suit) {
@@ -28,7 +27,7 @@ Suit Card::getSuit() const {
     return this->suit;
 }
 
-std::ostream &operator<<(std::ostream &stream, const Card::Card &card) {
-    stream << card.getRank() << " of " << card.getSuit();
+std::ostream &operator<<(std::ostream &stream, const Card::Card *card) {
+    stream << card->getRank() << " of " << card->getSuit();
     return stream;
 }

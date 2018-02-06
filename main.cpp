@@ -6,7 +6,9 @@ int main() {
 
     deck.shuffle();
     deck.shuffle();
+
     deck.show();
-    
+
+
     return 0;
 }

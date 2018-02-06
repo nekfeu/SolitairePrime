@@ -10,11 +10,11 @@
 
 class Deck {
 private:
-    Card cards[52];
+    Card* cards[52];
 public:
     Deck();
     void refresh();
-    Card deal();
+    Card* deal();
     void shuffle();
     int cardsLeft();
     void show();
