@@ -22,7 +22,16 @@ Card Deck::deal() {
 }
 
 void Deck::shuffle() {
+    int index;
+    Card switchTmp;
 
+    for (int i = 0; i < 52; i++) {
+        index = rand() % 52;
+
+        switchTmp = cards[index];
+        cards[index] = cards[i];
+        cards[i] = switchTmp;
+    }
 }
 
 int Deck::cardsLeft() {

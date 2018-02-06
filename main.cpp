@@ -3,7 +3,10 @@
 
 int main() {
     Deck deck = Deck();
+
+    deck.shuffle();
+    deck.shuffle();
     deck.show();
-    std::cout << "Hello, World!" << std::endl;
+    
     return 0;
 }
