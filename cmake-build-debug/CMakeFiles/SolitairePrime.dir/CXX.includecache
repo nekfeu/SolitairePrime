@@ -28,6 +28,14 @@ iostream
 Card.h
 /Users/nekfeu/Documents/CSULB/Cpp/SolitairePrime/Card.h
 
+/Users/nekfeu/Documents/CSULB/Cpp/SolitairePrime/Menu.cpp
+Menu.h
+/Users/nekfeu/Documents/CSULB/Cpp/SolitairePrime/Menu.h
+
+/Users/nekfeu/Documents/CSULB/Cpp/SolitairePrime/Menu.h
+iostream
+-
+
 /Users/nekfeu/Documents/CSULB/Cpp/SolitairePrime/Rank.cpp
 Rank.h
 /Users/nekfeu/Documents/CSULB/Cpp/SolitairePrime/Rank.h
@@ -35,6 +43,14 @@ Rank.h
 /Users/nekfeu/Documents/CSULB/Cpp/SolitairePrime/Rank.h
 iostream
 -
+
+/Users/nekfeu/Documents/CSULB/Cpp/SolitairePrime/SolitairePrime.cpp
+SolitairePrime.h
+/Users/nekfeu/Documents/CSULB/Cpp/SolitairePrime/SolitairePrime.h
+
+/Users/nekfeu/Documents/CSULB/Cpp/SolitairePrime/SolitairePrime.h
+Deck.h
+/Users/nekfeu/Documents/CSULB/Cpp/SolitairePrime/Deck.h
 
 /Users/nekfeu/Documents/CSULB/Cpp/SolitairePrime/Suit.cpp
 Suit.h
@@ -49,4 +65,8 @@ iostream
 -
 Deck.h
 /Users/nekfeu/Documents/CSULB/Cpp/SolitairePrime/Deck.h
+SolitairePrime.h
+/Users/nekfeu/Documents/CSULB/Cpp/SolitairePrime/SolitairePrime.h
+Menu.h
+/Users/nekfeu/Documents/CSULB/Cpp/SolitairePrime/Menu.h
 

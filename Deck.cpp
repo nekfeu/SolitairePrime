@@ -1,7 +1,3 @@
-//
-// Created by Kévin Empociello on 05/02/2018.
-//
-
 #include "Deck.h"
 
 Deck::Deck() {
@@ -34,6 +30,7 @@ void Deck::shuffle() {
     int index;
     Card* switchTmp;
 
+    srand(time(0));
     for (int i = 0; i < 52; i++) {
         index = rand() % 52;
 

@@ -12,15 +12,27 @@ CMakeFiles/SolitairePrime.dir/Deck.cpp.o: ../Deck.h
 CMakeFiles/SolitairePrime.dir/Deck.cpp.o: ../Rank.h
 CMakeFiles/SolitairePrime.dir/Deck.cpp.o: ../Suit.h
 
+CMakeFiles/SolitairePrime.dir/Menu.cpp.o: ../Menu.cpp
+CMakeFiles/SolitairePrime.dir/Menu.cpp.o: ../Menu.h
+
 CMakeFiles/SolitairePrime.dir/Rank.cpp.o: ../Rank.cpp
 CMakeFiles/SolitairePrime.dir/Rank.cpp.o: ../Rank.h
+
+CMakeFiles/SolitairePrime.dir/SolitairePrime.cpp.o: ../Card.h
+CMakeFiles/SolitairePrime.dir/SolitairePrime.cpp.o: ../Deck.h
+CMakeFiles/SolitairePrime.dir/SolitairePrime.cpp.o: ../Rank.h
+CMakeFiles/SolitairePrime.dir/SolitairePrime.cpp.o: ../SolitairePrime.cpp
+CMakeFiles/SolitairePrime.dir/SolitairePrime.cpp.o: ../SolitairePrime.h
+CMakeFiles/SolitairePrime.dir/SolitairePrime.cpp.o: ../Suit.h
 
 CMakeFiles/SolitairePrime.dir/Suit.cpp.o: ../Suit.cpp
 CMakeFiles/SolitairePrime.dir/Suit.cpp.o: ../Suit.h
 
 CMakeFiles/SolitairePrime.dir/main.cpp.o: ../Card.h
 CMakeFiles/SolitairePrime.dir/main.cpp.o: ../Deck.h
+CMakeFiles/SolitairePrime.dir/main.cpp.o: ../Menu.h
 CMakeFiles/SolitairePrime.dir/main.cpp.o: ../Rank.h
+CMakeFiles/SolitairePrime.dir/main.cpp.o: ../SolitairePrime.h
 CMakeFiles/SolitairePrime.dir/main.cpp.o: ../Suit.h
 CMakeFiles/SolitairePrime.dir/main.cpp.o: ../main.cpp
 

@@ -16,7 +16,7 @@ private:
 public:
     Card();
     Card(Rank, Suit);
-    int getValue();
+    int getValue() const;
     Rank getRank() const;
     Suit getSuit() const;
     void show();

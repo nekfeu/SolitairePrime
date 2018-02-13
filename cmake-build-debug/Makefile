@@ -177,6 +177,33 @@ Deck.cpp.s:
 	$(MAKE) -f CMakeFiles/SolitairePrime.dir/build.make CMakeFiles/SolitairePrime.dir/Deck.cpp.s
 .PHONY : Deck.cpp.s
 
+Menu.o: Menu.cpp.o
+
+.PHONY : Menu.o
+
+# target to build an object file
+Menu.cpp.o:
+	$(MAKE) -f CMakeFiles/SolitairePrime.dir/build.make CMakeFiles/SolitairePrime.dir/Menu.cpp.o
+.PHONY : Menu.cpp.o
+
+Menu.i: Menu.cpp.i
+
+.PHONY : Menu.i
+
+# target to preprocess a source file
+Menu.cpp.i:
+	$(MAKE) -f CMakeFiles/SolitairePrime.dir/build.make CMakeFiles/SolitairePrime.dir/Menu.cpp.i
+.PHONY : Menu.cpp.i
+
+Menu.s: Menu.cpp.s
+
+.PHONY : Menu.s
+
+# target to generate assembly for a file
+Menu.cpp.s:
+	$(MAKE) -f CMakeFiles/SolitairePrime.dir/build.make CMakeFiles/SolitairePrime.dir/Menu.cpp.s
+.PHONY : Menu.cpp.s
+
 Rank.o: Rank.cpp.o
 
 .PHONY : Rank.o
@@ -203,6 +230,33 @@ Rank.s: Rank.cpp.s
 Rank.cpp.s:
 	$(MAKE) -f CMakeFiles/SolitairePrime.dir/build.make CMakeFiles/SolitairePrime.dir/Rank.cpp.s
 .PHONY : Rank.cpp.s
+
+SolitairePrime.o: SolitairePrime.cpp.o
+
+.PHONY : SolitairePrime.o
+
+# target to build an object file
+SolitairePrime.cpp.o:
+	$(MAKE) -f CMakeFiles/SolitairePrime.dir/build.make CMakeFiles/SolitairePrime.dir/SolitairePrime.cpp.o
+.PHONY : SolitairePrime.cpp.o
+
+SolitairePrime.i: SolitairePrime.cpp.i
+
+.PHONY : SolitairePrime.i
+
+# target to preprocess a source file
+SolitairePrime.cpp.i:
+	$(MAKE) -f CMakeFiles/SolitairePrime.dir/build.make CMakeFiles/SolitairePrime.dir/SolitairePrime.cpp.i
+.PHONY : SolitairePrime.cpp.i
+
+SolitairePrime.s: SolitairePrime.cpp.s
+
+.PHONY : SolitairePrime.s
+
+# target to generate assembly for a file
+SolitairePrime.cpp.s:
+	$(MAKE) -f CMakeFiles/SolitairePrime.dir/build.make CMakeFiles/SolitairePrime.dir/SolitairePrime.cpp.s
+.PHONY : SolitairePrime.cpp.s
 
 Suit.o: Suit.cpp.o
 
@@ -273,9 +327,15 @@ help:
 	@echo "... Deck.o"
 	@echo "... Deck.i"
 	@echo "... Deck.s"
+	@echo "... Menu.o"
+	@echo "... Menu.i"
+	@echo "... Menu.s"
 	@echo "... Rank.o"
 	@echo "... Rank.i"
 	@echo "... Rank.s"
+	@echo "... SolitairePrime.o"
+	@echo "... SolitairePrime.i"
+	@echo "... SolitairePrime.s"
 	@echo "... Suit.o"
 	@echo "... Suit.i"
 	@echo "... Suit.s"
